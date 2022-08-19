@@ -76,3 +76,7 @@ amend polls.views.get_queryset
 create helper function polls.tests.create_question
 add tests for views - create QuestionIndexViewTests
 create QuestionDetailViewTests with tests
+
+### Part 6
+customize look
+add static/polls/style.css
