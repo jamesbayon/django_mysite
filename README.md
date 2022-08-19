@@ -39,3 +39,19 @@ add __self__ in polls.models.Choice
 Creating an admin user
 
 `python manage.py createsuperuser`
+
+make poll app modifiable in admin
+
+### Part 3
+write more views: detail, results, vote
+wire views to polls.urls
+modify polls.views.index to display 5 Question
+add new template for polls.index - templates/polls/index.html
+modify polls.views.index for new template
+
+Raising a 404 error
+modify polls.views.detail to raise Http404
+
+Namespacing URL names
+add app_name in polls.urls
+in html change url usage to 'polls:detail'
