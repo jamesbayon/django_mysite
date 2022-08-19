@@ -3,5 +3,6 @@ li a {
 }
 
 body {
+    padding: 30px, 30px, 0, 0;
     background: white url("images/background.png") no-repeat;
 }
