@@ -1,5 +1,6 @@
 # django_mysite
- Writing my first Django app
+Writing my first Django app
+source: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
 ### Part 1
 Creating a project
@@ -80,3 +81,7 @@ create QuestionDetailViewTests with tests
 ### Part 6
 customize look
 add static/polls/style.css
+
+### Part 7
+create class QuestionAdmin with fields
+add related objects - display the choices
