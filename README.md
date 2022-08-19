@@ -55,3 +55,13 @@ modify polls.views.detail to raise Http404
 Namespacing URL names
 add app_name in polls.urls
 in html change url usage to 'polls:detail'
+
+### Part 5
+write minimal form for polls detail.html
+update polls.views.vote for modified detail html
+update polls.views.results to use get_object_or_404
+add template results.html
+
+Use generic views
+Amend URLconf in polls.urls - use IndexView.as_view() etc
+Amend views in polls.views - remove index, detail, results and replace with IndexView etc
