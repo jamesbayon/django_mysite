@@ -111,3 +111,27 @@ add static/polls/style.css
 create class QuestionAdmin with fields
 
 add related objects - display the choices
+
+### Additional
+Add django REST framework
+
+source https://www.django-rest-framework.org/
+
+install the following
+
+`pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support`
+
+add 'rest_framework' to mysite.settings INSTALLED_APPS .
+
+`INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]`
+
+add rest_framework in mysite.urls url_patterns
+
+add REST_FRAMEWORK in mysite.settings
+
+add API in mysite.urls
