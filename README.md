@@ -119,16 +119,20 @@ source https://www.django-rest-framework.org/
 
 install the following
 
-`pip install djangorestframework
+```
+pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
-pip install django-filter  # Filtering support`
+pip install django-filter  # Filtering support
+```
 
 add 'rest_framework' to mysite.settings INSTALLED_APPS .
 
-`INSTALLED_APPS = [
+```
+INSTALLED_APPS = [
     ...
     'rest_framework',
-]`
+]
+```
 
 add rest_framework in mysite.urls url_patterns
 
