@@ -1,6 +1,18 @@
-# django_mysite
-Writing my first Django app
-source: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
+# Django Polls App
+Django Polls App
+
+Created 1 app in django where the user can create a Poll and create Choices for the Poll
+where each Choice has a vote count
+
+static and templates were used in this app.
+
+Here are the sample screenshots for the Polls App:
+
+<img src="./readme_images/Polls_Index.JPG" alt="Polls_Index_Image" width="200" style="display:block"/>
+<img src="./readme_images/Poll_Choices.JPG" alt="Poll_Choices_Image" width="200" style="display:block"/>
+<img src="./readme_images/Poll_Vote_Results.JPG" alt="Poll_Vote_Results_Image" width="200" style="display:block"/>
+
+tutorial source: https://docs.djangoproject.com/en/4.1/intro/tutorial01/
 
 ### Part 1
 Creating a project
